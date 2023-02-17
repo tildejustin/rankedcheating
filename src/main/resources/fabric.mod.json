@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "mcsrranked-testing",
+  "id": "rankedcheating",
   "version": "${version}",
-  "name": "mcsrranked testing",
+  "name": "mcsrranked cheating",
   "description": "",
   "authors": [
     "tildejustin"
@@ -11,15 +11,13 @@
     "website": "https://tildejustin.dev"
   },
   "license": "MIT",
-  "icon": "assets/mcsrranked-testing/icon.png",
   "environment": "*",
-  "entrypoints": {
-  },
   "mixins": [
-    "mcsrranked-testing.mixins.json"
+    "rankedcheating.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.14",
-    "minecraft": "1.16.1"
+    "minecraft": "1.16.1",
+    "mcsrranked":  "*"
   }
 }

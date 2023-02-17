@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mcsrranked-testing",
+  "version": "${version}",
+  "name": "mcsrranked testing",
+  "description": "",
+  "authors": [
+    "tildejustin"
+  ],
+  "contact": {
+    "website": "https://tildejustin.dev"
+  },
+  "license": "MIT",
+  "icon": "assets/mcsrranked-testing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "mcsrranked-testing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "minecraft": "1.16.1"
+  }
+}

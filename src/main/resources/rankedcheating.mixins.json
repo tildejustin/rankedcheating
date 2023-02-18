@@ -4,7 +4,7 @@
   "package": "xyz.tildejustin.rankedcheating.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "CheatingMixin"
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1

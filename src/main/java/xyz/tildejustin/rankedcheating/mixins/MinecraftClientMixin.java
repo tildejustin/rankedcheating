@@ -24,6 +24,8 @@ public class MinecraftClientMixin {
 //            System.out.println("Attempted credits screen open");
 //        }
 
+//        TODO: need to reset timer & maybe only send complete message when igt is loaded
+
         if (MCSREloProject.RUNNING_MATCH && !sent && MinecraftClient.getInstance().player != null) {
             sent = true;
             EloWebSocket.getInstance().sendSingle("match_complete");
